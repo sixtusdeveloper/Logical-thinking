@@ -33,3 +33,20 @@ else:
 person = {"name": "Alice", "age": 25, "city": "New York"}
 for key, value in person.items():
     print(f"{key}: {value}")
+
+
+
+
+# Looping through lists of students
+students = ["Alice", "Bob", "Charlie"]
+for index, student in enumerate(students):
+    print(f"Index: {index}, Student: {student}")
+
+
+# Looping through a range of numbers
+for i in range(5):
+    print(i)
+
+
+# Looping through a range addendum
+
