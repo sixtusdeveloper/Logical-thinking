@@ -28,3 +28,29 @@ else:
     print("You are not a great player!")
     print("Your participation is not appreciated!")
 
+
+
+# Challenge 7: Print each fruit in a fruit list, using a for loop:
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+
+# Challenge 8: Print each fruit in a fruit list, using a for loop:
+for i in range(5):
+    print(i)
+
+
+# Challenge 9: Print each fruit in a fruit list, using a for loop:
+word = "hello"
+for letter in word:
+    print(letter)
+
+
+# Challenge 10: Print each fruit in a fruit list, using a for loop:
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+    
