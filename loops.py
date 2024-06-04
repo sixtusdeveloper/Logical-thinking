@@ -84,3 +84,8 @@ while i <= 5:
     i += 1
 else:
     print("Loop completed without break")
+
+
+
+lst = [1, 2, 3]
+lst.append(4)  # lst is now [1, 2, 3, 4]
