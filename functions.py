@@ -33,3 +33,30 @@ def print_key_values(**kwargs):
         print(f"{key}: {value}")
 
 print_key_values(a=1, b=2, c=3)  # Output: a: 1 b: 2 c: 3
+
+
+
+
+
+def outer_function(text):
+    def inner_function():
+        print(text)
+    inner_function()
+
+outer_function("Hello from inner function")
+
+
+
+
+def add(a, b):
+    """
+    Adds two numbers.
+
+    Parameters:
+    a (int): The first number.
+    b (int): The second number.
+
+    Returns:
+    int: The sum of a and b.
+    """
+    return a + b
