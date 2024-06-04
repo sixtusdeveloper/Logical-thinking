@@ -60,3 +60,7 @@ def add(a, b):
     int: The sum of a and b.
     """
     return a + b
+
+
+
+print(len("Hello"))  # len is a built-in function
