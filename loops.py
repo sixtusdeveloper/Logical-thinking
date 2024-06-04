@@ -73,3 +73,14 @@ for i in range(1, 6):
     print(i)
 else:
     print("Loop completed without break")
+
+
+
+i = 1
+while i <= 5:
+    if i == 3:
+        break
+    print(i)
+    i += 1
+else:
+    print("Loop completed without break")
