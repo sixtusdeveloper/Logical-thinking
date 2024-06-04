@@ -49,3 +49,27 @@ for i in range(1, 11):
     if i == 5:
         break
     print(i)
+
+
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        if j == 2:
+            break
+        print(f"i = {i}, j = {j}")
+
+
+
+i = 1, j = 1
+i = 2, j = 1
+i = 3, j = 1
+
+
+
+
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Loop completed without break")
